@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
         el:"#app",
         data: {
             todos: [
-                {task: "Buy shopping"},
-                {task: "Clean bathroom"},
-                {task: "Car's MOT"}
+                {task: "Buy shopping", priority: 1},
+                {task: "Clean bathroom", priority: 2},
+                {task: "Car's MOT", priority: 3}
             ]
         },
         methods: {
